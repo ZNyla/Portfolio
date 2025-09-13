@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(244, 225, 191);
+}
+h1{
+    text-align: center;
+    /* float: right; */
+    margin-top: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+    color:rgb(148, 36, 36)
+}
+h2{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 40px;
+    color: rgb(137, 48, 48);
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 400px;
+    color: rgb(137, 48, 48);
+}
+h4{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(137, 48, 48);
+}
+h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#p2{
+    border: 5px;
+    border-radius: 25px;
+}
+/* #intro-text{
+    margin-top: 150px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(78, 38, 20);
+} */
+button{
+    font-size: 25px;
+    display: block;
+    margin: auto;
+}
+.skills{
+    display: inline-block;
+    border-spacing: 15px;
+    text-align: center;
+    max-width: 185px;
+    /* image-orientation: ; */
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    margin-top: auto; /* Pushes it to bottom if used with flexbox body */
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 35px 12%; */
+    background: rgb(104, 58, 33);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 20px;
+    color:bisque
+}
+.navbar{
+    word-spacing: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: brown;
+    border-bottom: 3px soild brown;
+}
+.contact{
+    padding: 9px 28px;
+    background-color: wheat;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    color:rgb(126, 37, 37)
+    /* border 2px soild transparent; */
+    /* border-radius: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease; */
+}
+.contact:hover,
+.contact:active{
+    color: rgb(190, 26, 26);
+    box-shadow: inset;
+    /* background-color: wheat;
+    box-shadow: 0 0 25px white
+    color whitesmoke; */
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center; /* Centers the image + text horizontally */
+    align-items: center; /* Vertically align items */
+    gap: 40px; /* Space between image and text */
+    padding: 40px;
+    flex-wrap: wrap; /* Makes it responsive for smaller screens */
+    margin-top: 150px;
+}
+
+#img_me {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#home {
+    max-width: 600px;
+}
+
+#intro-text {
+    font-size: 45px;
+    text-align: left; /* Aligns text to the left side */
+    text-align: center;
+    color: rgb(78, 38, 20);
+    margin-top: 0; /* Remove large margin-top from before */
+}
